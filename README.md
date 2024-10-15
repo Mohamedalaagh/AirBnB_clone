@@ -1,16 +1,72 @@
-Name of the project
-0x00. AirBnB clone - The console
-Descrption
-Team project to build a clone of AirBnB.
-The console is a command interpreter to manage objects abstraction between objects and how they are stored.
+# Description
+AirBnB Clone project is a web project that aims to create a complete site that look like actual AirBnB site.
+The project is devided into different small small projects:
+- The console
+- Web static
+- Web framework 
+- Restful API
+- Web dynamic
 
-The console will perform the following tasks:
-create a new object
-retrive an object from a file
-do operations on objects
-destroy an object
+-------------------------------------------------------------------------------------------------------------
+# The console
+The first is the console and aims to:
+- create data model
+- manage (create, update, destroy, etc) objects via a console / command interpreter
+- store and persist objects to a file (JSON file)
 
-Description of the envieronment:
-All the development and testing was runned over an operating system Ubuntu 20.04 LTS using programming language Python 3.8.3. The editors used were VIM 8.1.2269, VSCode 1.6.1 and Atom 1.58.0 . Control version using Git 2.25.1.
+## General
+- How to create a Python package
+- How to create a command interpreter in Python using the cmd module
+- What is Unit testing and how to implement it in a large project
+- How to serialize and deserialize a Class
+- How to write and read a JSON file
+- How to manage datetime
+- What is an UUID
+- What is *args and how to use it
+- What is **kwargs and how to use it
+- How to handle named arguments in a function
+## Copyright - Plagiarism
+- You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+- You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+- You are not allowed to publish any content of this project.
+- Any form of plagiarism is strictly forbidden and will result in removal from the program.
+## Requirements
+- Python Scripts
+- Allowed editors: vi, vim, emacs
+- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+- All your files should end with a new line
+- The first line of all your files should be exactly #!/usr/bin/python3
+- A README.md file, at the root of the folder of the project, is mandatory
+- Your code should use the pycodestyle (version 2.8.*)
+- All your files must be executable
+- The length of your files will be tested using wc
+- All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+- All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+- All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+## Python Unit Tests
+- Allowed editors: vi, vim, emacs
+- All your files should end with a new line
+- All your test files should be inside a folder tests
+- You have to use the unittest module
+- All your test files should be python files (extension: .py)
+- All your test files and folders should start by test_
+- Your file organization in the tests folder should be the same as your project
+e.g., For models/base_model.py, unit tests must be in: tests/test_models/test_base_model.py
+e.g., For models/user.py, unit tests must be in: tests/test_models/test_user.py
+- All your tests should be executed by using this command: python3 -m unittest discover tests
+- You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py
+- All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+- All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+- All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+## Bugs
 
+At this time, there are no known bugs.
 
+## License
+
+**AirBnB Clone** is open source and free to download and use
+
+## Author
+
+@ Mohamed Alaa(https://github.com/Mohamedalaagh/)
