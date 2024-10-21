@@ -2,19 +2,17 @@
 """base model Class"""
 
 import uuid
-import datetime
+from datetime import datetime
 
 
-class BaseModel():
+class BaseModel:
     """A base class model that provides common functionality for all models."""
 
     def __init__(self):
-        """This initializes instance attribute
-        """
-
+        """This initializes instance attribute."""
         self.id = str(uuid.uuid4())
-        self.created_at = datetime.datetime.now()
-        self.updated_at = datetime.datetime.now()
+        self.created_at = datetime.now()
+        self.updated_at = datetime.now()
 
     def __str__(self):
         """Return a string representation of the instance."""
@@ -22,7 +20,7 @@ class BaseModel():
 
     def save(self):
         """Update the 'updated_at' timestamp to the current time."""
-        self.updated_at = datetime.datetime.now()
+        self.updated_at = datetime.now()
 
     def to_dict(self):
         """Return a dict representation of the instance for serialization."""
